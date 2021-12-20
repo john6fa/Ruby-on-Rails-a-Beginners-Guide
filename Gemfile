@@ -17,17 +17,14 @@ gem 'simple_form'
 gem 'will_paginate', '~> 3.1'
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 gem 'railties'
-
-
-
-
+gem 'puma', '~> 5.2'
 
 group :development, :test do
     gem 'byebug'
 end
 
 group :development do
-    gem 'web-console', '~> 2.0'
+    gem 'web-console', '~> 3.3.0'
     gem 'spring'
     gem 'sqlite3'
 end
